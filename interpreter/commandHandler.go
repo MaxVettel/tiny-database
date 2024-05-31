@@ -15,7 +15,7 @@ func HandleCommand(text string) {
 	case "stop":
 		os.Exit(0)
 	case "get":
-		get()
+		get(args[1:])
 	case "getall":
 		getall()
 	case "set":
