@@ -1,5 +1,6 @@
 Типы комманд:
-- stop
-- get {id}
-- getall
-- set {value}
+- stop - остановка приложения
+- get {id} - запрос value по id записи
+- getall - запрос всех записей
+- set {value} - сохранение новой записи
+- delete {id} - удаление записи по id

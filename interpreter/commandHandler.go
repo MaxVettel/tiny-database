@@ -20,6 +20,8 @@ func HandleCommand(text string) {
 		getall()
 	case "set":
 		set(args[1:])
+	case "delete":
+		delete(args[1:])
 	case "":
 		fmt.Println("empty command")
 	default:
